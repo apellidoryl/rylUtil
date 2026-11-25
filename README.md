@@ -27,6 +27,16 @@ RylUtils is a Windows desktop utility built with PowerShell and WPF. It combines
 
 ## Getting Started
 
+To download the latest public version and open the GUI directly from PowerShell (Git is not required), run:
+
+```powershell
+irm https://raw.githubusercontent.com/apellidoryl/rylUtil/main/Run-RylUtils.ps1 | iex
+```
+
+The launcher downloads the source and runtime bundle under `%LOCALAPPDATA%\RylUtils`, extracts the LibreHardwareMonitor dependency, deletes the downloaded ZIP archives, and prompts for UAC before opening the entire GUI as administrator. The extracted application and its local data (including logs, backups, and user-downloaded installers) remain on the computer after exit. This command executes code from the repository, so review and trust the source before running it.
+
+To run from a local clone instead:
+
 1. Clone the repository:
 
    ```powershell
@@ -42,11 +52,11 @@ RylUtils is a Windows desktop utility built with PowerShell and WPF. It combines
 
 The launcher starts RylUtils in a hidden PowerShell host and opens the WPF interface.
 
-## Offline Installers
+## Runtime Bundle and Offline Installers
 
-Offline installers can be placed in `offline_apps`. The app catalog identifies which entries support offline installation.
+The public runtime bundle includes LibreHardwareMonitor and its license notices. Optional third-party app icons and offline installers are not redistributed; the GUI uses text glyphs when icons are unavailable. Use WinGet or obtain installers directly from their publishers and place them in `offline_apps`.
 
-The repository also includes bundled installers and an offline copy of selected tools. Downloading or running third-party software is subject to the original publisher's terms.
+To rebuild the maximum-compression runtime ZIP, install 7-Zip and run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Build-RuntimeResources.ps1`. The build uses the local `Assets\LibreHardwareMonitor.zip` and fetches the matching upstream license notices.
 
 ## Configuration
 
@@ -54,9 +64,12 @@ The repository also includes bundled installers and an offline copy of selected 
 - `Apps.xml` - app catalog and WinGet package IDs
 - `Bloatware.xml` - optional Microsoft Store app removal allowlist
 - `DnsProfiles.xml` - DNS providers and server addresses
-- `Assets\` - app icons and bundled assets
+- `Assets\` - LibreHardwareMonitor runtime package; optional app icons are not included in the public bundle
+- `Tools\LICENSES\` - LibreHardwareMonitor MPL-2.0 license and third-party notices
+- `Tools\LibreHardwareMonitor\` - extracted at launch from the runtime bundle
+- `offline_apps\` - locally supplied installers; not included in the public release
 - `Logs\` - application and startup logs
-- `Backups\` - DNS and system configuration backups
+- `Backups\` - local DNS and system configuration backups; not included in the public release
 
 ## Safety
 

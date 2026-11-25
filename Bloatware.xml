@@ -1,0 +1,25 @@
+<OptionalApps>
+    <App PackageName="Clipchamp.Clipchamp" DisplayName="Clipchamp" Description="Video editor" />
+    <App PackageName="Microsoft.BingNews" DisplayName="Microsoft News" Description="News app" />
+    <App PackageName="Microsoft.BingWeather" DisplayName="Microsoft Weather" Description="Weather app" />
+    <App PackageName="Microsoft.GetHelp" DisplayName="Get Help" Description="Support app" />
+    <App PackageName="Microsoft.Getstarted" DisplayName="Tips" Description="Windows tips app" />
+    <App PackageName="Microsoft.MicrosoftSolitaireCollection" DisplayName="Solitaire Collection" Description="Casual games" />
+    <App PackageName="Microsoft.WindowsFeedbackHub" DisplayName="Feedback Hub" Description="Windows feedback app" />
+    <App PackageName="Microsoft.XboxGamingOverlay" DisplayName="Xbox Game Bar" Description="Gaming overlay" />
+    <App PackageName="Microsoft.GamingApp" DisplayName="Xbox app" Description="Xbox companion app" />
+    <App PackageName="Microsoft.ZuneMusic" DisplayName="Media Player" Description="Music app" />
+    <App PackageName="Microsoft.ZuneVideo" DisplayName="Movies &amp; TV" Description="Video app" />
+    <App PackageName="Microsoft.YourPhone" DisplayName="Phone Link" Description="Phone integration app" />
+    <App PackageName="Microsoft.3DBuilder" DisplayName="3D Builder" Description="Legacy 3D model creation app" />
+    <App PackageName="Microsoft.Microsoft3DViewer" DisplayName="3D Viewer" Description="3D model viewer" />
+    <App PackageName="Microsoft.MixedReality.Portal" DisplayName="Mixed Reality Portal" Description="Mixed reality companion app" />
+    <App PackageName="Microsoft.People" DisplayName="People" Description="Contacts app" />
+    <App PackageName="Microsoft.WindowsMaps" DisplayName="Maps" Description="Offline and online maps app" />
+    <App PackageName="Microsoft.SkypeApp" DisplayName="Skype" Description="Skype communication app" />
+    <App PackageName="Microsoft.OneConnect" DisplayName="Mobile Plans" Description="Mobile connectivity app" />
+    <App PackageName="Microsoft.Messaging" DisplayName="Messaging" Description="Legacy messaging app" />
+    <App PackageName="Microsoft.Print3D" DisplayName="Print 3D" Description="3D printing companion app" />
+    <App PackageName="Microsoft.BingFinance" DisplayName="Money" Description="Legacy Bing finance app" />
+    <App PackageName="Microsoft.BingSports" DisplayName="Sports" Description="Legacy Bing sports app" />
+</OptionalApps>

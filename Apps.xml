@@ -1,0 +1,1026 @@
+<Apps>
+    <App>
+        <Name>Brave</Name>
+        <PackageId>Brave.Brave</PackageId>
+        <Category>Browsers</Category>
+        <Icon>B</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\brave.png</IconPath>
+        <Color>#D85B38</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Private web browser</Description>
+    </App>
+    <App>
+        <Name>Google Chrome</Name>
+        <PackageId>Google.Chrome</PackageId>
+        <Category>Browsers</Category>
+        <Icon>C</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\chrome.png</IconPath>
+        <Color>#479467</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Google web browser</Description>
+    </App>
+    <App>
+        <Name>Mozilla Firefox</Name>
+        <PackageId>Mozilla.Firefox</PackageId>
+        <Category>Browsers</Category>
+        <Icon>F</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\firefox.png</IconPath>
+        <Color>#745FD9</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Open web browser</Description>
+    </App>
+    <App>
+        <Name>VLC media player</Name>
+        <PackageId>VideoLAN.VLC</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>V</Icon>
+        <IconGlyph>E768</IconGlyph>
+        <IconPath>Assets\AppIcons\vlc.png</IconPath>
+        <Color>#E09937</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Media player, offline download available</Description>
+    </App>
+    <App>
+        <Name>7-Zip</Name>
+        <PackageId>7zip.7zip</PackageId>
+        <Category>Utilities</Category>
+        <Icon>7</Icon>
+        <IconGlyph>E8B7</IconGlyph>
+        <IconPath>Assets\AppIcons\7zip.png</IconPath>
+        <Color>#5A90BA</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>File archiver, offline download available</Description>
+    </App>
+    <App>
+        <Name>ShareX</Name>
+        <PackageId>ShareX.ShareX</PackageId>
+        <Category>Screenshots &amp; Screen Recording</Category>
+        <Icon>S</Icon>
+        <IconGlyph>E722</IconGlyph>
+        <IconPath>Assets\AppIcons\sharex.png</IconPath>
+        <Color>#489D97</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Screenshot and capture utility</Description>
+    </App>
+    <App>
+        <Name>Visual Studio Code</Name>
+        <PackageId>Microsoft.VisualStudioCode</PackageId>
+        <Category>Developer</Category>
+        <Icon>VS</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\vscode.png</IconPath>
+        <Color>#3986CC</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Code editor</Description>
+    </App>
+    <App>
+        <Name>Git</Name>
+        <PackageId>Git.Git</PackageId>
+        <Category>Developer</Category>
+        <Icon>G</Icon>
+        <IconGlyph>E12B</IconGlyph>
+        <IconPath>Assets\AppIcons\git.png</IconPath>
+        <Color>#C25B4D</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Version control tools</Description>
+    </App>
+    <App>
+        <Name>Steam</Name>
+        <PackageId>Valve.Steam</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>S</Icon>
+        <IconGlyph>E7FC</IconGlyph>
+        <IconPath>Assets\AppIcons\steam.png</IconPath>
+        <Color>#4C6A96</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Game library</Description>
+    </App>
+    <App>
+        <Name>Discord</Name>
+        <PackageId>Discord.Discord</PackageId>
+        <Category>Communication</Category>
+        <Icon>D</Icon>
+        <IconGlyph>E8BD</IconGlyph>
+        <IconPath>Assets\AppIcons\discord.png</IconPath>
+        <Color>#6370DD</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Voice and chat</Description>
+    </App>
+    <App>
+        <Name>Microsoft 365 Apps</Name>
+        <PackageId>Microsoft.Office</PackageId>
+        <Category>Productivity</Category>
+        <Icon>M365</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\microsoft365.png</IconPath>
+        <Color>#D7654A</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Microsoft 365 Apps for enterprise; use Quick Setup for the full offline source and an eligible license</Description>
+    </App>
+    <App>
+        <Name>SumatraPDF</Name>
+        <PackageId>SumatraPDF.SumatraPDF</PackageId>
+        <Category>Productivity</Category>
+        <Icon>PDF</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\sumatrapdf.png</IconPath>
+        <Color>#B94E4E</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Lightweight PDF reader, offline download available</Description>
+    </App>
+    <App>
+        <Name>Opera GX</Name>
+        <PackageId>Opera.OperaGX</PackageId>
+        <Category>Browsers</Category>
+        <Icon>GX</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\operagx.png</IconPath>
+        <Color>#B44568</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Gaming-focused web browser</Description>
+    </App>
+    <App>
+        <Name>Notepad++</Name>
+        <PackageId>Notepad++.Notepad++</PackageId>
+        <Category>Developer</Category>
+        <Icon>N+</Icon>
+        <IconGlyph>E70F</IconGlyph>
+        <IconPath>Assets\AppIcons\notepadplusplus.png</IconPath>
+        <Color>#459F77</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Lightweight code and text editor</Description>
+    </App>
+    <App>
+        <Name>Microsoft PowerToys</Name>
+        <PackageId>Microsoft.PowerToys</PackageId>
+        <Category>Utilities</Category>
+        <Icon>PT</Icon>
+        <IconGlyph>E713</IconGlyph>
+        <IconPath>Assets\AppIcons\powertoys.png</IconPath>
+        <Color>#7558C9</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Windows productivity utilities</Description>
+    </App>
+    <App>
+        <Name>PeaZip</Name>
+        <PackageId>Giorgiotani.Peazip</PackageId>
+        <Category>Utilities</Category>
+        <Icon>P</Icon>
+        <IconGlyph>E8B7</IconGlyph>
+        <IconPath>Assets\AppIcons\peazip.png</IconPath>
+        <Color>#4B9DAB</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>File archiver; downloadable installer available</Description>
+    </App>
+    <App>
+        <Name>LibreOffice</Name>
+        <PackageId>TheDocumentFoundation.LibreOffice</PackageId>
+        <Category>Productivity</Category>
+        <Icon>LO</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\libreoffice.png</IconPath>
+        <Color>#1A6AA8</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Free office suite; downloadable installer available</Description>
+    </App>
+    <App>
+        <Name>Spotify</Name>
+        <PackageId>Spotify.Spotify</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>SP</Icon>
+        <IconGlyph>E8D6</IconGlyph>
+        <IconPath>Assets\AppIcons\spotify.png</IconPath>
+        <Color>#359461</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Music streaming app</Description>
+    </App>
+    <App>
+        <Name>OBS Studio</Name>
+        <PackageId>OBSProject.OBSStudio</PackageId>
+        <Category>Screenshots &amp; Screen Recording</Category>
+        <Icon>OBS</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <IconPath>Assets\AppIcons\obs.png</IconPath>
+        <Color>#626B7B</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Video recording and streaming; downloadable installer available</Description>
+    </App>
+    <App>
+        <Name>GIMP</Name>
+        <PackageId>GIMP.GIMP.3</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>G</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <IconPath>Assets\AppIcons\gimp.png</IconPath>
+        <Color>#77634D</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Image editing software</Description>
+    </App>
+    <App>
+        <Name>Mozilla Thunderbird</Name>
+        <PackageId>Mozilla.Thunderbird</PackageId>
+        <Category>Communication</Category>
+        <Icon>T</Icon>
+        <IconGlyph>E715</IconGlyph>
+        <IconPath>Assets\AppIcons\thunderbird.png</IconPath>
+        <Color>#3879B2</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Email and calendar client</Description>
+    </App>
+    <App>
+        <Name>Zoom Workplace</Name>
+        <PackageId>Zoom.Zoom</PackageId>
+        <Category>Meeting &amp; Collaboration</Category>
+        <Icon>Z</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <IconPath>Assets\AppIcons\zoom.png</IconPath>
+        <Color>#428BD1</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Video meeting app, offline installer available</Description>
+    </App>
+    <App>
+        <Name>Driver Booster</Name>
+        <PackageId>IObit.DriverBooster</PackageId>
+        <Category>Utilities</Category>
+        <Icon>DB</Icon>
+        <IconGlyph>E713</IconGlyph>
+        <IconPath>Assets\AppIcons\driverbooster.png</IconPath>
+        <Color>#3286C7</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Driver updater; review proposed driver changes before applying</Description>
+    </App>
+    <App>
+        <Name>Blender</Name>
+        <PackageId>BlenderFoundation.Blender</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>3D</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <IconPath>Assets\AppIcons\blender.png</IconPath>
+        <Color>#E97925</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>3D modeling, animation, and rendering suite</Description>
+    </App>
+    <App>
+        <Name>Krita</Name>
+        <PackageId>KDE.Krita</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>K</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <IconPath>Assets\AppIcons\krita.png</IconPath>
+        <Color>#4A718D</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Digital painting and illustration</Description>
+    </App>
+    <App>
+        <Name>Inkscape</Name>
+        <PackageId>Inkscape.Inkscape</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>I</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <IconPath>Assets\AppIcons\inkscape.png</IconPath>
+        <Color>#5B5B5B</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Vector graphics editor</Description>
+    </App>
+    <App>
+        <Name>HandBrake</Name>
+        <PackageId>HandBrake.HandBrake</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>HB</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <IconPath>Assets\AppIcons\handbrake.png</IconPath>
+        <Color>#A8493E</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Video transcoder and converter</Description>
+    </App>
+    <App>
+        <Name>Audacity</Name>
+        <PackageId>Audacity.Audacity</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>A</Icon>
+        <IconGlyph>E8D6</IconGlyph>
+        <IconPath>Assets\AppIcons\audacity.png</IconPath>
+        <Color>#3D5A9B</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Audio recording and editing</Description>
+    </App>
+    <App>
+        <Name>Bitwarden</Name>
+        <PackageId>Bitwarden.Bitwarden</PackageId>
+        <Category>Security</Category>
+        <Icon>BW</Icon>
+        <IconGlyph>E8D7</IconGlyph>
+        <IconPath>Assets\AppIcons\bitwarden.png</IconPath>
+        <Color>#175DDC</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Open-source password manager</Description>
+    </App>
+    <App>
+        <Name>KeePassXC</Name>
+        <PackageId>KeePassXCTeam.KeePassXC</PackageId>
+        <Category>Security</Category>
+        <Icon>KX</Icon>
+        <IconGlyph>E8D7</IconGlyph>
+        <IconPath>Assets\AppIcons\keepassxc.png</IconPath>
+        <Color>#6A8F42</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Offline password manager</Description>
+    </App>
+    <App>
+        <Name>Everything</Name>
+        <PackageId>voidtools.Everything</PackageId>
+        <Category>Utilities</Category>
+        <Icon>E</Icon>
+        <IconGlyph>E721</IconGlyph>
+        <IconPath>Assets\AppIcons\everything.png</IconPath>
+        <Color>#5799C8</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Fast file and folder search</Description>
+    </App>
+    <App>
+        <Name>Python 3.14</Name>
+        <PackageId>Python.Python.3.14</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>Py</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\python.png</IconPath>
+        <Color>#3676A8</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Python programming language runtime</Description>
+    </App>
+    <App>
+        <Name>GitHub Desktop</Name>
+        <PackageId>GitHub.GitHubDesktop</PackageId>
+        <Category>Developer</Category>
+        <Icon>GH</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\githubdesktop.png</IconPath>
+        <Color>#32383F</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Git client with a graphical interface</Description>
+    </App>
+    <App>
+        <Name>Obsidian</Name>
+        <PackageId>Obsidian.Obsidian</PackageId>
+        <Category>Productivity</Category>
+        <Icon>O</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\obsidian.png</IconPath>
+        <Color>#7352B5</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Markdown notes and knowledge base</Description>
+    </App>
+    <App>
+        <Name>Joplin</Name>
+        <PackageId>Joplin.Joplin</PackageId>
+        <Category>Productivity</Category>
+        <Icon>J</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\joplin.png</IconPath>
+        <Color>#5275A3</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Open-source notes and to-do application</Description>
+    </App>
+    <App>
+        <Name>Microsoft Edge</Name>
+        <PackageId>Microsoft.Edge</PackageId>
+        <Category>Browsers</Category>
+        <Icon>ED</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\edge.png</IconPath>
+        <Color>#3978C5</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Microsoft web browser</Description>
+    </App>
+    <App>
+        <Name>Vivaldi</Name>
+        <PackageId>Vivaldi.Vivaldi</PackageId>
+        <Category>Browsers</Category>
+        <Icon>V</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\vivaldi.png</IconPath>
+        <Color>#B53E4C</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Customizable web browser</Description>
+    </App>
+    <App>
+        <Name>Tor Browser</Name>
+        <PackageId>TorProject.TorBrowser</PackageId>
+        <Category>Browsers</Category>
+        <Icon>TOR</Icon>
+        <IconGlyph>E774</IconGlyph>
+        <IconPath>Assets\AppIcons\tor.png</IconPath>
+        <Color>#79583B</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Privacy-focused browser using the Tor network</Description>
+    </App>
+    <App>
+        <Name>Paint.NET</Name>
+        <PackageId>dotPDN.PaintDotNet</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>PD</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <IconPath>Assets\AppIcons\paintdotnet.png</IconPath>
+        <Color>#4A79A8</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Raster image editor for Windows</Description>
+    </App>
+    <App>
+        <Name>Kdenlive</Name>
+        <PackageId>KDE.Kdenlive</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>K</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <IconPath>Assets\AppIcons\kdenlive.png</IconPath>
+        <Color>#4F578F</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Open-source video editor</Description>
+    </App>
+    <App>
+        <Name>LosslessCut</Name>
+        <PackageId>ch.LosslessCut</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>LC</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <IconPath>Assets\AppIcons\losslesscut.png</IconPath>
+        <Color>#343A48</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Lossless video and audio trimming tool</Description>
+    </App>
+    <App>
+        <Name>foobar2000</Name>
+        <PackageId>PeterPawlowski.foobar2000</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>FB</Icon>
+        <IconGlyph>E8D6</IconGlyph>
+        <IconPath>Assets\AppIcons\foobar2000.png</IconPath>
+        <Color>#9A7E4B</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Advanced audio player</Description>
+    </App>
+    <App>
+        <Name>Rufus</Name>
+        <PackageId>Rufus.Rufus</PackageId>
+        <Category>Utilities</Category>
+        <Icon>R</Icon>
+        <IconGlyph>E8B7</IconGlyph>
+        <IconPath>Assets\AppIcons\rufus.png</IconPath>
+        <Color>#447AA4</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Create bootable USB drives</Description>
+    </App>
+    <App>
+        <Name>WizTree</Name>
+        <PackageId>AntibodySoftware.WizTree</PackageId>
+        <Category>Utilities</Category>
+        <Icon>W</Icon>
+        <IconGlyph>E8B7</IconGlyph>
+        <IconPath>Assets\AppIcons\wiztree.png</IconPath>
+        <Color>#4D8A5E</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Visualize disk space usage</Description>
+    </App>
+    <App>
+        <Name>Microsoft PowerShell</Name>
+        <PackageId>Microsoft.PowerShell</PackageId>
+        <Category>Utilities</Category>
+        <Icon>PS</Icon>
+        <IconGlyph>E756</IconGlyph>
+        <IconPath>Assets\AppIcons\powershell.png</IconPath>
+        <Color>#3676A8</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Modern cross-platform PowerShell shell</Description>
+    </App>
+    <App>
+        <Name>Sysinternals Suite</Name>
+        <PackageId>Microsoft.Sysinternals.Suite</PackageId>
+        <Category>Utilities</Category>
+        <Icon>SI</Icon>
+        <IconGlyph>E8B7</IconGlyph>
+        <IconPath>Assets\AppIcons\sysinternals.png</IconPath>
+        <Color>#647185</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Advanced Windows troubleshooting utilities</Description>
+    </App>
+    <App>
+        <Name>Go</Name>
+        <PackageId>GoLang.Go</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>Go</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\golang.png</IconPath>
+        <Color>#4A9EB5</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Go programming language toolchain</Description>
+    </App>
+    <App>
+        <Name>Eclipse Temurin JDK 21</Name>
+        <PackageId>EclipseAdoptium.Temurin.21.JDK</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>J21</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\temurin.png</IconPath>
+        <Color>#6E4A84</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>OpenJDK 21 development kit</Description>
+    </App>
+    <App>
+        <Name>Docker Desktop</Name>
+        <PackageId>Docker.DockerDesktop</PackageId>
+        <Category>Developer</Category>
+        <Icon>D</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\docker.png</IconPath>
+        <Color>#2285C5</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Container development environment; virtualization support required</Description>
+    </App>
+    <App>
+        <Name>Postman</Name>
+        <PackageId>Postman.Postman</PackageId>
+        <Category>Developer</Category>
+        <Icon>P</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\postman.png</IconPath>
+        <Color>#E87538</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>API development and testing client</Description>
+    </App>
+    <App>
+        <Name>Node.js LTS</Name>
+        <PackageId>OpenJS.NodeJS.LTS</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>JS</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\nodejs.png</IconPath>
+        <Color>#47824A</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Long-term support JavaScript runtime</Description>
+    </App>
+    <App>
+        <Name>.NET SDK 10</Name>
+        <PackageId>Microsoft.DotNet.SDK.10</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>.NET</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\dotnet.png</IconPath>
+        <Color>#673AB7</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>.NET 10 SDK for building applications</Description>
+    </App>
+    <App>
+        <Name>JetBrains Toolbox</Name>
+        <PackageId>JetBrains.Toolbox</PackageId>
+        <Category>Developer</Category>
+        <Icon>JB</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\jetbrains.png</IconPath>
+        <Color>#7F5BD8</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Manage JetBrains IDE installations</Description>
+    </App>
+    <App>
+        <Name>WinMerge</Name>
+        <PackageId>WinMerge.WinMerge</PackageId>
+        <Category>Developer</Category>
+        <Icon>WM</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\winmerge.png</IconPath>
+        <Color>#4B8A63</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Compare and merge files and folders</Description>
+    </App>
+    <App>
+        <Name>Epic Games Launcher</Name>
+        <PackageId>EpicGames.EpicGamesLauncher</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>EG</Icon>
+        <IconGlyph>E7FC</IconGlyph>
+        <IconPath>Assets\AppIcons\epicgames.png</IconPath>
+        <Color>#454B57</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Epic Games store and game library</Description>
+    </App>
+    <App>
+        <Name>GOG GALAXY</Name>
+        <PackageId>GOG.Galaxy</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>GOG</Icon>
+        <IconGlyph>E7FC</IconGlyph>
+        <IconPath>Assets\AppIcons\gog.png</IconPath>
+        <Color>#7D477D</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Game library and launcher</Description>
+    </App>
+    <App>
+        <Name>ONLYOFFICE Desktop Editors</Name>
+        <PackageId>ONLYOFFICE.DesktopEditors</PackageId>
+        <Category>Productivity</Category>
+        <Icon>OO</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\onlyoffice.png</IconPath>
+        <Color>#4D77C6</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Office suite for documents, spreadsheets, and presentations</Description>
+    </App>
+    <App>
+        <Name>Adobe Acrobat Reader</Name>
+        <PackageId>Adobe.Acrobat.Reader.64-bit</PackageId>
+        <Category>Productivity</Category>
+        <Icon>PDF</Icon>
+        <IconGlyph>E8A5</IconGlyph>
+        <IconPath>Assets\AppIcons\acrobatreader.png</IconPath>
+        <Color>#C43D3D</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>PDF viewer and reader</Description>
+    </App>
+    <App>
+        <Name>Telegram Desktop</Name>
+        <PackageId>Telegram.TelegramDesktop</PackageId>
+        <Category>Communication</Category>
+        <Icon>TG</Icon>
+        <IconGlyph>E715</IconGlyph>
+        <IconPath>Assets\AppIcons\telegram.png</IconPath>
+        <Color>#3197C9</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Messaging and voice communication app</Description>
+    </App>
+    <App>
+        <Name>Element</Name>
+        <PackageId>Element.Element</PackageId>
+        <Category>Communication</Category>
+        <Icon>E</Icon>
+        <IconGlyph>E715</IconGlyph>
+        <IconPath>Assets\AppIcons\element.png</IconPath>
+        <Color>#4C9D75</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Matrix-based secure messaging client</Description>
+    </App>
+    <App>
+        <Name>Slack</Name>
+        <PackageId>SlackTechnologies.Slack</PackageId>
+        <Category>Meeting &amp; Collaboration</Category>
+        <Icon>S</Icon>
+        <IconGlyph>E715</IconGlyph>
+        <IconPath>Assets\AppIcons\slack.png</IconPath>
+        <Color>#6A4D7B</Color>
+        <OfflineDownload>true</OfflineDownload>
+        <Description>Team messaging and collaboration</Description>
+    </App>
+    <App>
+        <Name>WinSCP</Name>
+        <PackageId>WinSCP.WinSCP</PackageId>
+        <Category>Utilities</Category>
+        <Icon>WS</Icon>
+        <Color>#4A8B9B</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Secure file transfer client for SFTP and SCP</Description>
+    </App>
+    <App>
+        <Name>CrystalDiskInfo</Name>
+        <PackageId>CrystalDewWorld.CrystalDiskInfo</PackageId>
+        <Category>Utilities</Category>
+        <Icon>CD</Icon>
+        <Color>#428FA8</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Drive health and SMART status monitor</Description>
+    </App>
+    <App>
+        <Name>CPU-Z</Name>
+        <PackageId>CPUID.CPU-Z</PackageId>
+        <Category>Utilities</Category>
+        <Icon>CPU</Icon>
+        <Color>#4B70A5</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Hardware identification and system information</Description>
+    </App>
+    <App>
+        <Name>PuTTY</Name>
+        <PackageId>PuTTY.PuTTY</PackageId>
+        <Category>Utilities</Category>
+        <Icon>P</Icon>
+        <Color>#638A4C</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>SSH and Telnet client</Description>
+    </App>
+    <App>
+        <Name>Visual Studio Community 2022</Name>
+        <PackageId>Microsoft.VisualStudio.2022.Community</PackageId>
+        <Category>Developer</Category>
+        <Icon>VS</Icon>
+        <Color>#7654A5</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Full-featured IDE for .NET, C++, and other development workloads</Description>
+    </App>
+    <App>
+        <Name>IntelliJ IDEA Community</Name>
+        <PackageId>JetBrains.IntelliJIDEA.Community</PackageId>
+        <Category>Developer</Category>
+        <Icon>IJ</Icon>
+        <Color>#8A5378</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Java and Kotlin development IDE</Description>
+    </App>
+    <App>
+        <Name>DBeaver Community</Name>
+        <PackageId>DBeaver.DBeaver.Community</PackageId>
+        <Category>Developer</Category>
+        <Icon>DB</Icon>
+        <Color>#C78A3B</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Universal database management and SQL client</Description>
+    </App>
+    <App>
+        <Name>Terraform</Name>
+        <PackageId>Hashicorp.Terraform</PackageId>
+        <Category>Developer</Category>
+        <Icon>TF</Icon>
+        <Color>#7860B5</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Infrastructure as code command-line tool</Description>
+    </App>
+    <App>
+        <Name>Gpg4win</Name>
+        <PackageId>GnuPG.Gpg4win</PackageId>
+        <Category>Security</Category>
+        <Icon>GPG</Icon>
+        <IconGlyph>E8D7</IconGlyph>
+        <Color>#4169A1</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>OpenPGP encryption and key management tools</Description>
+    </App>
+    <App>
+        <Name>VeraCrypt</Name>
+        <PackageId>IDRIX.VeraCrypt</PackageId>
+        <Category>Security</Category>
+        <Icon>VC</Icon>
+        <IconGlyph>E8D7</IconGlyph>
+        <Color>#52718A</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Disk and volume encryption utility</Description>
+    </App>
+    <App>
+        <Name>Wireshark</Name>
+        <PackageId>WiresharkFoundation.Wireshark</PackageId>
+        <Category>Security</Category>
+        <Icon>WS</Icon>
+        <IconGlyph>E8D7</IconGlyph>
+        <Color>#1683A8</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Network protocol analyzer for troubleshooting and security review</Description>
+    </App>
+    <App>
+        <Name>WireGuard</Name>
+        <PackageId>WireGuard.WireGuard</PackageId>
+        <Category>Security</Category>
+        <Icon>WG</Icon>
+        <IconGlyph>E8D7</IconGlyph>
+        <Color>#4A63A8</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Modern VPN tunnel client</Description>
+    </App>
+    <App>
+        <Name>RawTherapee</Name>
+        <PackageId>RawTherapee.RawTherapee</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>RT</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <Color>#B24D3F</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Raw photo development and image processing</Description>
+    </App>
+    <App>
+        <Name>darktable</Name>
+        <PackageId>darktable.darktable</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>DT</Icon>
+        <IconGlyph>E91B</IconGlyph>
+        <Color>#555C93</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Open-source photography workflow and RAW developer</Description>
+    </App>
+    <App>
+        <Name>Shotcut</Name>
+        <PackageId>Meltytech.Shotcut</PackageId>
+        <Category>Photo, Design &amp; Video</Category>
+        <Icon>SC</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <Color>#328C8A</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Cross-platform video editor</Description>
+    </App>
+    <App>
+        <Name>Greenshot</Name>
+        <PackageId>Greenshot.Greenshot</PackageId>
+        <Category>Screenshots &amp; Screen Recording</Category>
+        <Icon>GS</Icon>
+        <IconGlyph>E722</IconGlyph>
+        <Color>#42A66C</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Screenshot capture and annotation tool</Description>
+    </App>
+    <App>
+        <Name>ScreenToGif</Name>
+        <PackageId>NickeManarin.ScreenToGif</PackageId>
+        <Category>Screenshots &amp; Screen Recording</Category>
+        <Icon>SG</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <Color>#477D65</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Screen recorder and animated GIF editor</Description>
+    </App>
+    <App>
+        <Name>Flameshot</Name>
+        <PackageId>Flameshot.Flameshot</PackageId>
+        <Category>Screenshots &amp; Screen Recording</Category>
+        <Icon>FS</Icon>
+        <IconGlyph>E722</IconGlyph>
+        <Color>#D4554D</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Screenshot utility with annotation tools</Description>
+    </App>
+    <App>
+        <Name>.NET Desktop Runtime 8</Name>
+        <PackageId>Microsoft.DotNet.DesktopRuntime.8</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>.NET</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <IconPath>Assets\AppIcons\dotnet.png</IconPath>
+        <Color>#512BD4</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Runtime required by many Windows desktop apps built with .NET 8</Description>
+    </App>
+    <App>
+        <Name>Microsoft Visual C++ Redistributable</Name>
+        <PackageId>Microsoft.VCRedist.2015+.x64</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>VC++</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#6A58A5</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Visual C++ runtime libraries for 64-bit applications</Description>
+    </App>
+    <App>
+        <Name>Ruby 3.4</Name>
+        <PackageId>RubyInstallerTeam.Ruby.3.4</PackageId>
+        <Category>Runtimes</Category>
+        <Icon>RB</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#A83245</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Ruby language runtime and development tools</Description>
+    </App>
+    <App>
+        <Name>Plex</Name>
+        <PackageId>Plex.Plex</PackageId>
+        <Category>Media &amp; Entertainment</Category>
+        <Icon>PX</Icon>
+        <IconGlyph>E768</IconGlyph>
+        <Color>#D9A32A</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Personal media library and streaming client</Description>
+    </App>
+    <App>
+        <Name>Google Drive</Name>
+        <PackageId>Google.GoogleDrive</PackageId>
+        <Category>Cloud Storage &amp; Sync</Category>
+        <Icon>GD</Icon>
+        <IconGlyph>E753</IconGlyph>
+        <Color>#4385F5</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Google Drive desktop sync client</Description>
+    </App>
+    <App>
+        <Name>Dropbox</Name>
+        <PackageId>Dropbox.Dropbox</PackageId>
+        <Category>Cloud Storage &amp; Sync</Category>
+        <Icon>DB</Icon>
+        <IconGlyph>E753</IconGlyph>
+        <Color>#1469D2</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Cloud file storage and synchronization client</Description>
+    </App>
+    <App>
+        <Name>Syncthing</Name>
+        <PackageId>Syncthing.Syncthing</PackageId>
+        <Category>Cloud Storage &amp; Sync</Category>
+        <Icon>ST</Icon>
+        <IconGlyph>E753</IconGlyph>
+        <Color>#1594C8</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Peer-to-peer continuous file synchronization</Description>
+    </App>
+    <App>
+        <Name>Nextcloud Desktop</Name>
+        <PackageId>Nextcloud.NextcloudDesktop</PackageId>
+        <Category>Cloud Storage &amp; Sync</Category>
+        <Icon>NC</Icon>
+        <IconGlyph>E753</IconGlyph>
+        <Color>#0082C9</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Desktop sync client for Nextcloud</Description>
+    </App>
+    <App>
+        <Name>Microsoft OneDrive</Name>
+        <PackageId>Microsoft.OneDrive</PackageId>
+        <Category>Cloud Storage &amp; Sync</Category>
+        <Icon>OD</Icon>
+        <IconGlyph>E753</IconGlyph>
+        <Color>#0078D4</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Microsoft cloud storage and file synchronization</Description>
+    </App>
+    <App>
+        <Name>Microsoft Teams</Name>
+        <PackageId>Microsoft.Teams</PackageId>
+        <Category>Meeting &amp; Collaboration</Category>
+        <Icon>MT</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <Color>#6264A7</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Meetings, calls, chat, and team collaboration</Description>
+    </App>
+    <App>
+        <Name>Cisco Webex</Name>
+        <PackageId>Cisco.Webex</PackageId>
+        <Category>Meeting &amp; Collaboration</Category>
+        <Icon>CW</Icon>
+        <IconGlyph>E714</IconGlyph>
+        <Color>#00A0D2</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Video meetings and team collaboration</Description>
+    </App>
+    <App>
+        <Name>Signal Desktop</Name>
+        <PackageId>OpenWhisperSystems.Signal</PackageId>
+        <Category>Communication</Category>
+        <Icon>SG</Icon>
+        <IconGlyph>E715</IconGlyph>
+        <Color>#3A76F0</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Private messaging and voice calls</Description>
+    </App>
+    <App>
+        <Name>Microsoft Power Automate</Name>
+        <PackageId>Microsoft.PowerAutomateDesktop</PackageId>
+        <Category>Productivity</Category>
+        <Icon>PA</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#1761A0</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Desktop workflow automation</Description>
+    </App>
+    <App>
+        <Name>ChatGPT</Name>
+        <PackageId>OpenAI.ChatGPT</PackageId>
+        <Category>AI Tools</Category>
+        <Icon>AI</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#10A37F</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>OpenAI ChatGPT desktop app</Description>
+    </App>
+    <App>
+        <Name>Claude</Name>
+        <PackageId>Anthropic.Claude</PackageId>
+        <Category>AI Tools</Category>
+        <Icon>CL</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#C87955</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Anthropic Claude desktop app</Description>
+    </App>
+    <App>
+        <Name>LM Studio</Name>
+        <PackageId>ElementLabs.LMStudio</PackageId>
+        <Category>AI Tools</Category>
+        <Icon>LM</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#7458A5</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Run and manage local large language models</Description>
+    </App>
+    <App>
+        <Name>Ollama</Name>
+        <PackageId>Ollama.Ollama</PackageId>
+        <Category>AI Tools</Category>
+        <Icon>OL</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#4B826F</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Run open-source language models locally</Description>
+    </App>
+    <App>
+        <Name>Jan</Name>
+        <PackageId>Jan.Jan</PackageId>
+        <Category>AI Tools</Category>
+        <Icon>JA</Icon>
+        <IconGlyph>E943</IconGlyph>
+        <Color>#65717C</Color>
+        <OfflineDownload>false</OfflineDownload>
+        <Description>Open-source local AI assistant</Description>
+    </App>
+</Apps>

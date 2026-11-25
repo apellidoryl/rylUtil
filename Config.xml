@@ -1,0 +1,26 @@
+
+<Settings>
+    <Application>
+        <Name>RylUtils</Name>
+        <Version>1.1</Version>
+    </Application>
+
+    <Monitor>
+        <RefreshInterval>1000</RefreshInterval>
+        <EnableCPU>true</EnableCPU>
+        <EnableRAM>true</EnableRAM>
+        <EnableTemperature>true</EnableTemperature>
+    </Monitor>
+
+    <Theme>
+        <Background>#11151F</Background>
+        <Sidebar>#161B27</Sidebar>
+        <Panel>#1E2534</Panel>
+        <Accent>#4784ED</Accent>
+        <Muted>#9DA9BE</Muted>
+    </Theme>
+
+    <Downloads>
+        <OfflineDirectory>offline_apps</OfflineDirectory>
+    </Downloads>
+</Settings>

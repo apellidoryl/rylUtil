@@ -25,4 +25,22 @@ if (-not (Test-Path -LiteralPath $mainScript)) {
     throw "RylUtils was downloaded, but Main.ps1 was not found at '$mainScript'."
 }
 
-& $mainScript
+$hostCandidates = @()
+if ([Environment]::Is64BitOperatingSystem -and -not [Environment]::Is64BitProcess) {
+    $hostCandidates += Join-Path $env:WINDIR "Sysnative\WindowsPowerShell\v1.0\powershell.exe"
+}
+$hostCandidates += Join-Path $env:WINDIR "System32\WindowsPowerShell\v1.0\powershell.exe"
+$hostCandidates += Join-Path $PSHOME "powershell.exe"
+$hostCandidates += Join-Path $PSHOME "pwsh.exe"
+$hostExecutable = $hostCandidates |
+    Where-Object { Test-Path -LiteralPath $_ } |
+    Select-Object -First 1
+if (-not $hostExecutable) {
+    throw "Cannot find a PowerShell executable under '$PSHOME'."
+}
+
+$quotedScript = '"' + $mainScript.Replace('"', '""') + '"'
+$arguments = "-NoProfile -ExecutionPolicy Bypass -STA -WindowStyle Hidden -File $quotedScript -HiddenLaunch"
+Start-Process -FilePath $hostExecutable -ArgumentList $arguments `
+    -WorkingDirectory (Split-Path -Parent $mainScript) -WindowStyle Hidden `
+    -ErrorAction Stop | Out-Null

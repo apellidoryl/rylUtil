@@ -16,7 +16,7 @@ RylUtils is a Windows desktop utility built with PowerShell and WPF. It combines
 - WinGet app search, installation, and status checking
 - Downloaded and offline installer management
 - Quick links for Windows settings, System Restore, activation, and utilities
-- Administrator elevation prompts for actions that require them
+- UAC elevation for the online launcher; per-action elevation prompts when run locally
 
 ## Requirements
 
@@ -27,10 +27,10 @@ RylUtils is a Windows desktop utility built with PowerShell and WPF. It combines
 
 ## Getting Started
 
-To download the latest public version and open the GUI directly from PowerShell (Git is not required), run:
+To download the published bundle and open the GUI directly from PowerShell (Git is not required), run:
 
 ```powershell
-irm https://raw.githubusercontent.com/apellidoryl/rylUtil/main/Run-RylUtils.ps1 | iex
+irm https://raw.githubusercontent.com/apellidoryl/rylUtil/5a78d5e/Run-RylUtils.ps1 | iex
 ```
 
 The launcher downloads the source and runtime bundle under `%LOCALAPPDATA%\RylUtils`, extracts the LibreHardwareMonitor dependency, deletes the downloaded ZIP archives, and prompts for UAC before opening the entire GUI as administrator. The extracted application and its local data (including logs, backups, and user-downloaded installers) remain on the computer after exit. This command executes code from the repository, so review and trust the source before running it.
@@ -50,7 +50,7 @@ To run from a local clone instead:
    powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Main.ps1
    ```
 
-The launcher starts RylUtils in a hidden PowerShell host and opens the WPF interface.
+For a local launch, `Main.ps1` starts RylUtils in a hidden PowerShell host and opens the WPF interface. Actions requiring administrator privileges prompt for elevation when needed.
 
 ## Runtime Bundle and Offline Installers
 

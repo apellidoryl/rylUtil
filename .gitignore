@@ -1,0 +1,10 @@
+# Locally downloaded and offline application installers
+/offline_apps/
+
+# Application icons and bundled LibreHardwareMonitor files
+/Assets/AppIcons/
+/Assets/LibreHardwareMonitor.zip
+/Tools/LibreHardwareMonitor/
+
+# Local configuration backups
+/Backups/
